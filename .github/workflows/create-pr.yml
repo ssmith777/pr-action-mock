@@ -1,15 +1,15 @@
 name: Pull Request Action
-# on:
-#   push:
-#     branches:
-#       - feature/*
 on:
-  workflow_call:
-    inputs:
-      username:
-        description: 'Enter feature branch name:'
-        required: true
-        type: string
+  push:
+    branches:
+      - feature/*
+# on:
+#   workflow_call:
+#     inputs:
+#       pr-request-branch:
+#         description: 'Enter feature branch name:'
+#         required: true
+#         type: string
       
 jobs:
   create-pull-request:
