@@ -1,10 +1,7 @@
 name: Pull Request Action
-# on:
-#   push:
-#     branches:
-#       - feature/*
+
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       username:
         description: 'Enter feature branch name:'
