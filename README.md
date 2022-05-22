@@ -4,3 +4,4 @@ This is a working example of a github action that creates a pull request when ex
 ---
 - Input:
   - Enter branch to be merged to main
+- Output:
